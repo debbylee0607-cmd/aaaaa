@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Start</title>
+    <style>
+        body {
+            background: #111;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .box {
+            text-align: center;
+        }
+
+        button {
+            padding: 14px 28px;
+            margin-left: 6px;
+            cursor: pointer;
+            border: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            background: linear-gradient(145deg, #2f8773, #3a38a3);
+            box-shadow: 4px 4px 12px rgba(0,0,0,0.5), -4px -4px 12px rgba(255,255,255,0.1);
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 6px 6px 16px rgba(0,0,0,0.6), -6px -6px 16px rgba(255,255,255,0.15);
+        }
+
+        button:active {
+            transform: translateY(1px) scale(0.98);
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.5), -2px -2px 8px rgba(255,255,255,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <form action="dots.html">
+            <button type="submit">START</button>
+        </form>
+    </div>
+</body>
+</html>
